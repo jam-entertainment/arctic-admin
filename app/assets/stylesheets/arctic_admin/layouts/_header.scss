@@ -68,36 +68,36 @@ body.active_admin.logged_in {
     background-color: $header-background;
     border-bottom: 1px solid $header-border-color;
 
-    &:before {
-      @include icon($icon-menu);
+    // &:before {
+    //   @include icon($icon-menu);
 
-      display: inline;
-      visibility: visible;
-      cursor: pointer;
-      position: absolute;
-      top: 0;
-      left: 0;
-      color: $text-color;
-      padding: 15px 0;
-      text-align: center;
-      width: 40px;
-      font-size: 20px;
-    }
+    //   display: inline;
+    //   visibility: visible;
+    //   cursor: pointer;
+    //   position: absolute;
+    //   top: 0;
+    //   left: 0;
+    //   color: $text-color;
+    //   padding: 15px 0;
+    //   text-align: center;
+    //   width: 40px;
+    //   font-size: 20px;
+    // }
 
     @media screen and (min-width: $sm-width) {
       height: 60px;
       width: $screen-header-width;
 
-      &:before {
-        padding: 20px 0;
-      }
+      // &:before {
+      //   padding: 20px 0;
+      // }
     }
 
-    @media screen and (min-width: $lg-width) {
-      &:before {
-        display: none;
-      }
-    }
+    // @media screen and (min-width: $lg-width) {
+    // &:before {
+    //   display: none;
+    // }
+    // }
 
     @media screen and (min-width: $x-lg-width) {
       width: $lg-screen-header-width;

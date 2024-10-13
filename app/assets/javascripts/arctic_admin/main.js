@@ -16,7 +16,7 @@ function sidebarToggle(event) {
 
 // left menu sidebar toggle with menu button
 function menuButton() {
-  return document.querySelector("#utility_nav");
+  return document.querySelector("#mobile_menu");
 }
 
 function menu() {
@@ -24,6 +24,8 @@ function menu() {
 }
 
 function menuToggle(event) {
+  event.stopPropagation();
+  event.preventDefault();
   const currentUser = document.querySelector("#current_user");
   const logout = document.querySelector("#logout");
   const forbiddenLinks =
